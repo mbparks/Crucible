@@ -1,0 +1,280 @@
+/* CRUCIBLE · Telegraph theme
+ * A 1920s telegraph operator's bench. Walnut desk, brass key, paper dispatch slips.
+ * Reference: Western Union telegram forms, Vibroplex Bug keys, oak rolltop desks.
+ *
+ * Visual signature: dark warm wood as the field, cream telegraph-paper cards
+ * floating on top with brass-warm accents. Monospace display sets every heading
+ * in the rhythm of a teleprinter line.
+ */
+
+html[data-theme="telegraph"] {
+  /* Palette */
+  --bg: #2a1f15;                  /* walnut desk */
+  --fg: #f4ead0;                  /* aged paper */
+  --fg-muted: #c8b890;            /* dim paper */
+
+  --surface: #3a2a1c;             /* oak surface */
+  --surface-raised: #4a3624;
+  --surface-hover: #5a4630;
+
+  --rule: #6b4d2f;                /* worn brass line */
+  --rule-strong: #8a6740;
+
+  --accent-primary: #d4a960;      /* polished brass */
+  --accent-secondary: #e0b870;
+  --accent-rare: #f0d090;         /* gold leaf */
+  --danger: #c44a3a;              /* red ink stamp */
+
+  /* Cards invert: cream paper on the dark desk */
+  --card-bg: #f4ead0;
+  --card-fg: #2a1f15;
+  --card-fg-muted: #6b4d2f;
+  --card-rule: #b89048;
+  --card-shadow: 0 4px 14px rgba(15, 9, 4, 0.65), 0 1px 3px rgba(15, 9, 4, 0.4);
+
+  --overlay-scrim: rgba(15, 9, 4, 0.85);
+
+  /* Typography: monospace display sets the teleprinter rhythm */
+  --font-display: "IBM Plex Mono", ui-monospace, "Courier New", monospace;
+  --font-body: "IBM Plex Serif", "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  --text-base: 17px;
+
+  /* Texture: subtle wood grain on the field, paper fiber on the cards */
+  --bg-texture:
+    repeating-linear-gradient(
+      8deg,
+      transparent 0px,
+      transparent 60px,
+      rgba(0, 0, 0, 0.04) 60px,
+      rgba(0, 0, 0, 0.04) 62px
+    ),
+    radial-gradient(ellipse at 50% 0%, rgba(212, 169, 96, 0.06), transparent 60%);
+  --chrome-texture:
+    linear-gradient(180deg, rgba(212, 169, 96, 0.05) 0%, transparent 100%);
+  --card-texture:
+    repeating-linear-gradient(
+      0deg,
+      transparent 0,
+      transparent 22px,
+      rgba(107, 77, 47, 0.04) 22px,
+      rgba(107, 77, 47, 0.04) 23px
+    );
+}
+
+/* ===== display-type flourishes ===== */
+
+html[data-theme="telegraph"] .section-title,
+html[data-theme="telegraph"] .section-eyebrow,
+html[data-theme="telegraph"] .module-tile-name {
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-feature-settings: "tnum";
+}
+
+html[data-theme="telegraph"] .section-title {
+  font-weight: 500;
+  letter-spacing: 0.18em;
+}
+
+html[data-theme="telegraph"] .brand-word {
+  letter-spacing: 0.22em;
+}
+
+html[data-theme="telegraph"] .brand-glyph {
+  font-family: var(--font-mono);
+  text-shadow: 0 0 12px rgba(212, 169, 96, 0.5);
+}
+
+html[data-theme="telegraph"] .brand-glyph::before {
+  /* Replace alchemy retort with a key/dash motif */
+  content: none;
+}
+
+/* ===== card paper signature ===== */
+
+html[data-theme="telegraph"] .card-front,
+html[data-theme="telegraph"] .card-back,
+html[data-theme="telegraph"] .print-card {
+  background-color: var(--card-bg);
+  background-image: var(--card-texture);
+  color: var(--card-fg);
+  border: 1px solid var(--card-rule);
+  /* paper edge tone */
+  box-shadow: var(--card-shadow);
+}
+
+html[data-theme="telegraph"] .card-title {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-family: var(--font-mono);
+  font-weight: 500;
+  color: var(--card-fg);
+}
+
+html[data-theme="telegraph"] .card-subtitle,
+html[data-theme="telegraph"] .card-stat-label {
+  color: var(--card-fg-muted);
+}
+
+html[data-theme="telegraph"] .card-symbol {
+  font-family: var(--font-display);
+  color: var(--card-fg);
+  border-color: var(--card-rule);
+}
+
+/* ===== chrome and module tiles ===== */
+
+html[data-theme="telegraph"] .crucible-chrome {
+  border-bottom: 1px solid var(--rule-strong);
+}
+
+html[data-theme="telegraph"] .module-tile {
+  background: var(--surface-raised);
+  border: 1px solid var(--rule);
+  transition: background 0.12s, border-color 0.12s;
+}
+
+html[data-theme="telegraph"] .module-tile:hover {
+  background: var(--surface-hover);
+  border-color: var(--accent-primary);
+}
+
+html[data-theme="telegraph"] .module-tile-glyph {
+  color: var(--accent-primary);
+  font-family: var(--font-mono);
+  letter-spacing: 0;
+}
+
+html[data-theme="telegraph"] .module-tile-name {
+  font-weight: 500;
+  letter-spacing: 0.14em;
+}
+
+html[data-theme="telegraph"] .module-tile-status {
+  font-family: var(--font-mono);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.7em;
+}
+
+/* ===== buttons and pills ===== */
+
+html[data-theme="telegraph"] .chrome-btn,
+html[data-theme="telegraph"] .theme-btn,
+html[data-theme="telegraph"] .detail-action {
+  font-family: var(--font-mono);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-size: 0.78rem;
+}
+
+html[data-theme="telegraph"] .theme-btn[aria-pressed="true"] {
+  background: var(--accent-primary);
+  color: var(--bg);
+  border-color: var(--accent-secondary);
+}
+
+html[data-theme="telegraph"] .chrome-btn-key {
+  background: var(--accent-rare);
+  color: var(--bg);
+  border: 1px solid var(--accent-primary);
+}
+
+/* ===== custom-view widget surfaces ===== */
+/* Solver and tool panels: inverted to cream paper so they read as worksheets */
+
+html[data-theme="telegraph"] .bf-solver,
+html[data-theme="telegraph"] .el-checker,
+html[data-theme="telegraph"] .phase-tool,
+html[data-theme="telegraph"] .hardness-converter {
+  background: var(--card-bg);
+  color: var(--card-fg);
+  border: 1px solid var(--card-rule);
+  background-image: var(--card-texture);
+}
+
+html[data-theme="telegraph"] .bf-title,
+html[data-theme="telegraph"] .el-title,
+html[data-theme="telegraph"] .phase-h,
+html[data-theme="telegraph"] .hardness-converter-title {
+  color: var(--card-fg);
+}
+
+html[data-theme="telegraph"] .bf-sub,
+html[data-theme="telegraph"] .el-sub,
+html[data-theme="telegraph"] .phase-sub {
+  color: var(--card-fg-muted);
+}
+
+html[data-theme="telegraph"] .bf-field-label,
+html[data-theme="telegraph"] .el-field-label,
+html[data-theme="telegraph"] .phase-field-label,
+html[data-theme="telegraph"] .hardness-converter-label {
+  color: var(--card-fg-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+html[data-theme="telegraph"] .bf-select,
+html[data-theme="telegraph"] .bf-input,
+html[data-theme="telegraph"] .el-select,
+html[data-theme="telegraph"] .phase-input,
+html[data-theme="telegraph"] .phase-select,
+html[data-theme="telegraph"] .hardness-converter input,
+html[data-theme="telegraph"] .hardness-converter select {
+  background: #ffffff;
+  color: var(--card-fg);
+  border-color: var(--card-rule);
+}
+
+html[data-theme="telegraph"] .bf-recipe strong,
+html[data-theme="telegraph"] .phase-summary strong,
+html[data-theme="telegraph"] .el-summary strong {
+  color: #8a4f1c;  /* deeper brass for emphasis on paper */
+}
+
+html[data-theme="telegraph"] .bf-math,
+html[data-theme="telegraph"] .phase-math {
+  color: var(--card-fg-muted);
+  border-top-color: var(--card-rule);
+}
+
+html[data-theme="telegraph"] .phase-svg-host {
+  background: #ffffff;
+  border-color: var(--card-rule);
+}
+
+html[data-theme="telegraph"] .phase-tick-text,
+html[data-theme="telegraph"] .phase-line-label,
+html[data-theme="telegraph"] .phase-axis-title {
+  fill: var(--card-fg-muted);
+}
+
+html[data-theme="telegraph"] .phase-region-label {
+  fill: var(--card-fg);
+  opacity: 0.7;
+}
+
+html[data-theme="telegraph"] .phase-axis,
+html[data-theme="telegraph"] .phase-tick {
+  stroke: var(--card-fg-muted);
+}
+
+html[data-theme="telegraph"] .phase-line-a3,
+html[data-theme="telegraph"] .phase-line-acm {
+  stroke: var(--card-fg);
+}
+
+/* ===== footer ===== */
+
+html[data-theme="telegraph"] .crucible-foot {
+  border-top: 1px solid var(--rule);
+  color: var(--fg-muted);
+  font-family: var(--font-mono);
+  letter-spacing: 0.05em;
+  font-size: 0.85rem;
+}
+html[data-theme="telegraph"] .crucible-foot a {
+  color: var(--accent-primary);
+}

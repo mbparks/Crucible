@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en" data-theme="alchemy">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CRUCIBLE · Chemistry and Materials Bench</title>
+  <meta name="description" content="A chemistry and materials reference bench. Periodic table with engineering data, alloys, phase diagrams, reagents, buffers, etchants, photographic chemistry, and printable specimen cards.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Serif:wght@400;500;600&display=swap">
+
+  <link rel="stylesheet" href="shared/style/base.css">
+  <link rel="stylesheet" href="shared/style/themes/alchemy.css">
+  <link rel="stylesheet" href="shared/style/themes/assay.css">
+</head>
+<body>
+
+  <header class="crucible-chrome" role="banner">
+    <a href="#/" class="brand" aria-label="CRUCIBLE home">
+      <span class="brand-glyph" aria-hidden="true">⚗</span>
+      <span class="brand-word">CRUCIBLE</span>
+      <span class="brand-sub">chemistry and materials bench</span>
+    </a>
+
+    <nav class="chrome-actions" aria-label="Bench controls">
+      <button type="button" class="chrome-btn" data-action="open-search" title="Search (press /)">
+        <span aria-hidden="true">⌕</span>
+        <span class="chrome-btn-label">Search</span>
+        <kbd class="chrome-btn-key">/</kbd>
+      </button>
+
+      <button type="button" class="chrome-btn" data-action="open-vitrine" title="Open vitrine">
+        <span aria-hidden="true">▦</span>
+        <span class="chrome-btn-label">Vitrine</span>
+        <span class="vitrine-count" data-vitrine-count>0</span>
+      </button>
+
+      <div class="theme-picker" role="group" aria-label="Theme">
+        <button type="button" class="theme-btn" data-theme-set="alchemy" aria-pressed="true">Alchemy</button>
+        <button type="button" class="theme-btn" data-theme-set="assay" aria-pressed="false">Assay</button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="view-root" class="view-root" aria-live="polite">
+    <noscript>
+      <p class="boot-note">CRUCIBLE requires JavaScript. Without it, the bench cannot light its fires.</p>
+    </noscript>
+    <div class="boot-shim" data-boot-shim>
+      <p>Lighting the forge…</p>
+    </div>
+  </main>
+
+  <footer class="crucible-foot" role="contentinfo">
+    <p>
+      Field Instrument · CRUCIBLE
+      · <a href="https://mbparks.com/fieldinstruments/">other instruments</a>
+      · <a href="https://greenshoegarage.com/">Green Shoe Garage</a>
+    </p>
+    <p class="foot-sources">
+      Engineering data from <em>ASM Handbook</em> series.
+      Chemistry from <em>CRC Handbook of Chemistry and Physics</em>.
+      Each card carries its own citation.
+    </p>
+  </footer>
+
+  <!-- Search overlay -->
+  <div class="overlay" data-overlay="search" hidden role="dialog" aria-modal="true" aria-label="Global search">
+    <div class="overlay-card overlay-card-search">
+      <div class="overlay-head">
+        <input type="search" class="search-input" data-search-input placeholder="Search elements, alloys, reagents, recipes…" autocomplete="off" spellcheck="false">
+        <button type="button" class="overlay-close" data-action="close-overlay" aria-label="Close">✕</button>
+      </div>
+      <div class="search-results" data-search-results role="listbox" aria-label="Search results"></div>
+      <div class="overlay-foot">
+        <kbd>↑</kbd><kbd>↓</kbd> navigate
+        <kbd>↵</kbd> open
+        <kbd>esc</kbd> close
+      </div>
+    </div>
+  </div>
+
+  <!-- Vitrine overlay -->
+  <div class="overlay" data-overlay="vitrine" hidden role="dialog" aria-modal="true" aria-label="Vitrine">
+    <div class="overlay-card overlay-card-vitrine">
+      <div class="overlay-head">
+        <h2 class="overlay-title">Vitrine</h2>
+        <div class="overlay-tools">
+          <button type="button" class="overlay-tool" data-action="vitrine-share">Share link</button>
+          <button type="button" class="overlay-tool" data-action="vitrine-print">Print sheet</button>
+          <button type="button" class="overlay-tool" data-action="vitrine-clear">Clear</button>
+        </div>
+        <button type="button" class="overlay-close" data-action="close-overlay" aria-label="Close">✕</button>
+      </div>
+      <p class="vitrine-status" data-vitrine-status></p>
+      <div class="vitrine-grid" data-vitrine-grid></div>
+      <p class="vitrine-empty" data-vitrine-empty hidden>
+        Your vitrine is empty. Open any card and tap <em>add to vitrine</em> to collect specimens for printing or sharing.
+      </p>
+    </div>
+  </div>
+
+  <!-- Toast region -->
+  <div class="toast-region" data-toast-region aria-live="polite" aria-atomic="true"></div>
+
+  <script type="module" src="shared/js/app.js"></script>
+</body>
+</html>

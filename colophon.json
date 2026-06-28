@@ -1,0 +1,1624 @@
+{
+  "version": 1,
+  "built": "build.py",
+  "sources": [
+    {
+      "key": "crc-104",
+      "short": "CRC 104",
+      "full": "CRC Handbook of Chemistry and Physics, 104th Edition",
+      "publisher": "CRC Press",
+      "edition": "104th",
+      "citationCount": 124,
+      "citingEntries": [
+        {
+          "id": "electro:standard-potentials",
+          "title": "Standard reduction potentials",
+          "module": "electro"
+        },
+        {
+          "id": "element:ac",
+          "title": "Actinium",
+          "module": "assay"
+        },
+        {
+          "id": "element:ag",
+          "title": "Silver",
+          "module": "assay"
+        },
+        {
+          "id": "element:al",
+          "title": "Aluminum",
+          "module": "assay"
+        },
+        {
+          "id": "element:am",
+          "title": "Americium",
+          "module": "assay"
+        },
+        {
+          "id": "element:ar",
+          "title": "Argon",
+          "module": "assay"
+        },
+        {
+          "id": "element:as",
+          "title": "Arsenic",
+          "module": "assay"
+        },
+        {
+          "id": "element:at",
+          "title": "Astatine",
+          "module": "assay"
+        },
+        {
+          "id": "element:au",
+          "title": "Gold",
+          "module": "assay"
+        },
+        {
+          "id": "element:b",
+          "title": "Boron",
+          "module": "assay"
+        },
+        {
+          "id": "element:ba",
+          "title": "Barium",
+          "module": "assay"
+        },
+        {
+          "id": "element:be",
+          "title": "Beryllium",
+          "module": "assay"
+        },
+        {
+          "id": "element:bh",
+          "title": "Bohrium",
+          "module": "assay"
+        },
+        {
+          "id": "element:bi",
+          "title": "Bismuth",
+          "module": "assay"
+        },
+        {
+          "id": "element:bk",
+          "title": "Berkelium",
+          "module": "assay"
+        },
+        {
+          "id": "element:br",
+          "title": "Bromine",
+          "module": "assay"
+        },
+        {
+          "id": "element:c",
+          "title": "Carbon",
+          "module": "assay"
+        },
+        {
+          "id": "element:ca",
+          "title": "Calcium",
+          "module": "assay"
+        },
+        {
+          "id": "element:cd",
+          "title": "Cadmium",
+          "module": "assay"
+        },
+        {
+          "id": "element:ce",
+          "title": "Cerium",
+          "module": "assay"
+        },
+        {
+          "id": "element:cf",
+          "title": "Californium",
+          "module": "assay"
+        },
+        {
+          "id": "element:cl",
+          "title": "Chlorine",
+          "module": "assay"
+        },
+        {
+          "id": "element:cm",
+          "title": "Curium",
+          "module": "assay"
+        },
+        {
+          "id": "element:cn",
+          "title": "Copernicium",
+          "module": "assay"
+        },
+        {
+          "id": "element:co",
+          "title": "Cobalt",
+          "module": "assay"
+        },
+        {
+          "id": "element:cr",
+          "title": "Chromium",
+          "module": "assay"
+        },
+        {
+          "id": "element:cs",
+          "title": "Caesium",
+          "module": "assay"
+        },
+        {
+          "id": "element:cu",
+          "title": "Copper",
+          "module": "assay"
+        },
+        {
+          "id": "element:db",
+          "title": "Dubnium",
+          "module": "assay"
+        },
+        {
+          "id": "element:ds",
+          "title": "Darmstadtium",
+          "module": "assay"
+        },
+        {
+          "id": "element:dy",
+          "title": "Dysprosium",
+          "module": "assay"
+        },
+        {
+          "id": "element:er",
+          "title": "Erbium",
+          "module": "assay"
+        },
+        {
+          "id": "element:es",
+          "title": "Einsteinium",
+          "module": "assay"
+        },
+        {
+          "id": "element:eu",
+          "title": "Europium",
+          "module": "assay"
+        },
+        {
+          "id": "element:f",
+          "title": "Fluorine",
+          "module": "assay"
+        },
+        {
+          "id": "element:fe",
+          "title": "Iron",
+          "module": "assay"
+        },
+        {
+          "id": "element:fl",
+          "title": "Flerovium",
+          "module": "assay"
+        },
+        {
+          "id": "element:fm",
+          "title": "Fermium",
+          "module": "assay"
+        },
+        {
+          "id": "element:fr",
+          "title": "Francium",
+          "module": "assay"
+        },
+        {
+          "id": "element:ga",
+          "title": "Gallium",
+          "module": "assay"
+        },
+        {
+          "id": "element:gd",
+          "title": "Gadolinium",
+          "module": "assay"
+        },
+        {
+          "id": "element:ge",
+          "title": "Germanium",
+          "module": "assay"
+        },
+        {
+          "id": "element:h",
+          "title": "Hydrogen",
+          "module": "assay"
+        },
+        {
+          "id": "element:he",
+          "title": "Helium",
+          "module": "assay"
+        },
+        {
+          "id": "element:hf",
+          "title": "Hafnium",
+          "module": "assay"
+        },
+        {
+          "id": "element:hg",
+          "title": "Mercury",
+          "module": "assay"
+        },
+        {
+          "id": "element:ho",
+          "title": "Holmium",
+          "module": "assay"
+        },
+        {
+          "id": "element:hs",
+          "title": "Hassium",
+          "module": "assay"
+        },
+        {
+          "id": "element:i",
+          "title": "Iodine",
+          "module": "assay"
+        },
+        {
+          "id": "element:in",
+          "title": "Indium",
+          "module": "assay"
+        },
+        {
+          "id": "element:ir",
+          "title": "Iridium",
+          "module": "assay"
+        },
+        {
+          "id": "element:k",
+          "title": "Potassium",
+          "module": "assay"
+        },
+        {
+          "id": "element:kr",
+          "title": "Krypton",
+          "module": "assay"
+        },
+        {
+          "id": "element:la",
+          "title": "Lanthanum",
+          "module": "assay"
+        },
+        {
+          "id": "element:li",
+          "title": "Lithium",
+          "module": "assay"
+        },
+        {
+          "id": "element:lr",
+          "title": "Lawrencium",
+          "module": "assay"
+        },
+        {
+          "id": "element:lu",
+          "title": "Lutetium",
+          "module": "assay"
+        },
+        {
+          "id": "element:lv",
+          "title": "Livermorium",
+          "module": "assay"
+        },
+        {
+          "id": "element:mc",
+          "title": "Moscovium",
+          "module": "assay"
+        },
+        {
+          "id": "element:md",
+          "title": "Mendelevium",
+          "module": "assay"
+        },
+        {
+          "id": "element:mg",
+          "title": "Magnesium",
+          "module": "assay"
+        },
+        {
+          "id": "element:mn",
+          "title": "Manganese",
+          "module": "assay"
+        },
+        {
+          "id": "element:mo",
+          "title": "Molybdenum",
+          "module": "assay"
+        },
+        {
+          "id": "element:mt",
+          "title": "Meitnerium",
+          "module": "assay"
+        },
+        {
+          "id": "element:n",
+          "title": "Nitrogen",
+          "module": "assay"
+        },
+        {
+          "id": "element:na",
+          "title": "Sodium",
+          "module": "assay"
+        },
+        {
+          "id": "element:nb",
+          "title": "Niobium",
+          "module": "assay"
+        },
+        {
+          "id": "element:nd",
+          "title": "Neodymium",
+          "module": "assay"
+        },
+        {
+          "id": "element:ne",
+          "title": "Neon",
+          "module": "assay"
+        },
+        {
+          "id": "element:nh",
+          "title": "Nihonium",
+          "module": "assay"
+        },
+        {
+          "id": "element:ni",
+          "title": "Nickel",
+          "module": "assay"
+        },
+        {
+          "id": "element:no",
+          "title": "Nobelium",
+          "module": "assay"
+        },
+        {
+          "id": "element:np",
+          "title": "Neptunium",
+          "module": "assay"
+        },
+        {
+          "id": "element:o",
+          "title": "Oxygen",
+          "module": "assay"
+        },
+        {
+          "id": "element:og",
+          "title": "Oganesson",
+          "module": "assay"
+        },
+        {
+          "id": "element:os",
+          "title": "Osmium",
+          "module": "assay"
+        },
+        {
+          "id": "element:p",
+          "title": "Phosphorus",
+          "module": "assay"
+        },
+        {
+          "id": "element:pa",
+          "title": "Protactinium",
+          "module": "assay"
+        },
+        {
+          "id": "element:pb",
+          "title": "Lead",
+          "module": "assay"
+        },
+        {
+          "id": "element:pd",
+          "title": "Palladium",
+          "module": "assay"
+        },
+        {
+          "id": "element:pm",
+          "title": "Promethium",
+          "module": "assay"
+        },
+        {
+          "id": "element:po",
+          "title": "Polonium",
+          "module": "assay"
+        },
+        {
+          "id": "element:pr",
+          "title": "Praseodymium",
+          "module": "assay"
+        },
+        {
+          "id": "element:pt",
+          "title": "Platinum",
+          "module": "assay"
+        },
+        {
+          "id": "element:pu",
+          "title": "Plutonium",
+          "module": "assay"
+        },
+        {
+          "id": "element:ra",
+          "title": "Radium",
+          "module": "assay"
+        },
+        {
+          "id": "element:rb",
+          "title": "Rubidium",
+          "module": "assay"
+        },
+        {
+          "id": "element:re",
+          "title": "Rhenium",
+          "module": "assay"
+        },
+        {
+          "id": "element:rf",
+          "title": "Rutherfordium",
+          "module": "assay"
+        },
+        {
+          "id": "element:rg",
+          "title": "Roentgenium",
+          "module": "assay"
+        },
+        {
+          "id": "element:rh",
+          "title": "Rhodium",
+          "module": "assay"
+        },
+        {
+          "id": "element:rn",
+          "title": "Radon",
+          "module": "assay"
+        },
+        {
+          "id": "element:ru",
+          "title": "Ruthenium",
+          "module": "assay"
+        },
+        {
+          "id": "element:s",
+          "title": "Sulfur",
+          "module": "assay"
+        },
+        {
+          "id": "element:sb",
+          "title": "Antimony",
+          "module": "assay"
+        },
+        {
+          "id": "element:sc",
+          "title": "Scandium",
+          "module": "assay"
+        },
+        {
+          "id": "element:se",
+          "title": "Selenium",
+          "module": "assay"
+        },
+        {
+          "id": "element:sg",
+          "title": "Seaborgium",
+          "module": "assay"
+        },
+        {
+          "id": "element:si",
+          "title": "Silicon",
+          "module": "assay"
+        },
+        {
+          "id": "element:sm",
+          "title": "Samarium",
+          "module": "assay"
+        },
+        {
+          "id": "element:sn",
+          "title": "Tin",
+          "module": "assay"
+        },
+        {
+          "id": "element:sr",
+          "title": "Strontium",
+          "module": "assay"
+        },
+        {
+          "id": "element:ta",
+          "title": "Tantalum",
+          "module": "assay"
+        },
+        {
+          "id": "element:tb",
+          "title": "Terbium",
+          "module": "assay"
+        },
+        {
+          "id": "element:tc",
+          "title": "Technetium",
+          "module": "assay"
+        },
+        {
+          "id": "element:te",
+          "title": "Tellurium",
+          "module": "assay"
+        },
+        {
+          "id": "element:th",
+          "title": "Thorium",
+          "module": "assay"
+        },
+        {
+          "id": "element:ti",
+          "title": "Titanium",
+          "module": "assay"
+        },
+        {
+          "id": "element:tl",
+          "title": "Thallium",
+          "module": "assay"
+        },
+        {
+          "id": "element:tm",
+          "title": "Thulium",
+          "module": "assay"
+        },
+        {
+          "id": "element:ts",
+          "title": "Tennessine",
+          "module": "assay"
+        },
+        {
+          "id": "element:u",
+          "title": "Uranium",
+          "module": "assay"
+        },
+        {
+          "id": "element:v",
+          "title": "Vanadium",
+          "module": "assay"
+        },
+        {
+          "id": "element:w",
+          "title": "Tungsten",
+          "module": "assay"
+        },
+        {
+          "id": "element:xe",
+          "title": "Xenon",
+          "module": "assay"
+        },
+        {
+          "id": "element:y",
+          "title": "Yttrium",
+          "module": "assay"
+        },
+        {
+          "id": "element:yb",
+          "title": "Ytterbium",
+          "module": "assay"
+        },
+        {
+          "id": "element:zn",
+          "title": "Zinc",
+          "module": "assay"
+        },
+        {
+          "id": "element:zr",
+          "title": "Zirconium",
+          "module": "assay"
+        },
+        {
+          "id": "etch:aqua-regia",
+          "title": "Aqua regia",
+          "module": "etch"
+        },
+        {
+          "id": "reagent:h2so4-conc",
+          "title": "Sulfuric acid, concentrated",
+          "module": "reagent"
+        },
+        {
+          "id": "reagent:hcl-conc",
+          "title": "Hydrochloric acid, concentrated",
+          "module": "reagent"
+        },
+        {
+          "id": "scale:mohs",
+          "title": "Mohs scale",
+          "module": "hardness"
+        },
+        {
+          "id": "scale:shore",
+          "title": "Shore A and D",
+          "module": "hardness"
+        }
+      ]
+    },
+    {
+      "key": "asm-v1",
+      "short": "ASM Vol. 1",
+      "full": "ASM Handbook, Volume 1: Properties and Selection: Irons, Steels, and High-Performance Alloys",
+      "publisher": "ASM International",
+      "edition": "10th",
+      "citationCount": 26,
+      "citingEntries": [
+        {
+          "id": "alloy:aisi-1018",
+          "title": "AISI 1018",
+          "module": "alloy"
+        },
+        {
+          "id": "alloy:aisi-1045",
+          "title": "AISI 1045",
+          "module": "alloy"
+        },
+        {
+          "id": "alloy:aisi-1095",
+          "title": "AISI 1095",
+          "module": "alloy"
+        },
+        {
+          "id": "alloy:aisi-1144",
+          "title": "AISI 1144",
+          "module": "alloy"
+        },
+        {
+          "id": "alloy:aisi-12l14",
+          "title": "AISI 12L14",
+          "module": "alloy"
+        },
+        {
+          "id": "alloy:aisi-4140",
+          "title": "AISI 4140",
+          "module": "alloy"
+        },
+        {
+          "id": "alloy:aisi-4340",
+          "title": "AISI 4340",
+          "module": "alloy"
+        },
+        {
+          "id": "alloy:aisi-8620",
+          "title": "AISI 8620",
+          "module": "alloy"
+        },
+        {
+          "id": "alloy:al-1100",
+          "title": "Aluminum 1100",
+          "module": "alloy"
+        },
+        {
+          "id": "alloy:ci-ductile-65",
+          "title": "Ductile iron 65-45-12",
+          "module": "alloy"
+        },
+        {
+          "id": "alloy:ci-gray-30",
+          "title": "Gray cast iron Class 30",
+          "module": "alloy"
+        },
+        {
+          "id": "alloy:ss-17-4",
+          "title": "17-4 PH stainless",
+          "module": "alloy"
+        },
+        {
+          "id": "alloy:ss-304",
+          "title": "304 stainless",
+          "module": "alloy"
+        },
+        {
+          "id": "alloy:ss-316",
+          "title": "316 stainless",
+          "module": "alloy"
+        },
+        {
+          "id": "alloy:ss-410",
+          "title": "410 stainless",
+          "module": "alloy"
+        },
+        {
+          "id": "alloy:ti-grade-2",
+          "title": "Titanium Grade 2",
+          "module": "alloy"
+        },
+        {
+          "id": "alloy:tool-a2",
+          "title": "A2 tool steel",
+          "module": "alloy"
+        },
+        {
+          "id": "alloy:tool-d2",
+          "title": "D2 tool steel",
+          "module": "alloy"
+        },
+        {
+          "id": "alloy:tool-m2",
+          "title": "M2 high-speed steel",
+          "module": "alloy"
+        },
+        {
+          "id": "alloy:tool-o1",
+          "title": "O1 tool steel",
+          "module": "alloy"
+        },
+        {
+          "id": "alloy:tool-s7",
+          "title": "S7 tool steel",
+          "module": "alloy"
+        },
+        {
+          "id": "element:fe",
+          "title": "Iron",
+          "module": "assay"
+        },
+        {
+          "id": "scale:brinell",
+          "title": "Brinell HB",
+          "module": "hardness"
+        },
+        {
+          "id": "scale:rockwell",
+          "title": "Rockwell B and C",
+          "module": "hardness"
+        },
+        {
+          "id": "scale:vickers",
+          "title": "Vickers HV (and Knoop HK)",
+          "module": "hardness"
+        },
+        {
+          "id": "temper:17-4-h900",
+          "title": "17-4 PH H900 aging",
+          "module": "temper"
+        }
+      ]
+    },
+    {
+      "key": "asm-v4",
+      "short": "ASM Vol. 4",
+      "full": "ASM Handbook, Volume 4: Heat Treating",
+      "publisher": "ASM International",
+      "edition": "10th",
+      "citationCount": 22,
+      "citingEntries": [
+        {
+          "id": "alloy:aisi-1018",
+          "title": "AISI 1018",
+          "module": "alloy"
+        },
+        {
+          "id": "alloy:aisi-1045",
+          "title": "AISI 1045",
+          "module": "alloy"
+        },
+        {
+          "id": "alloy:aisi-1095",
+          "title": "AISI 1095",
+          "module": "alloy"
+        },
+        {
+          "id": "alloy:aisi-4140",
+          "title": "AISI 4140",
+          "module": "alloy"
+        },
+        {
+          "id": "alloy:aisi-4340",
+          "title": "AISI 4340",
+          "module": "alloy"
+        },
+        {
+          "id": "alloy:aisi-8620",
+          "title": "AISI 8620",
+          "module": "alloy"
+        },
+        {
+          "id": "alloy:tool-a2",
+          "title": "A2 tool steel",
+          "module": "alloy"
+        },
+        {
+          "id": "alloy:tool-d2",
+          "title": "D2 tool steel",
+          "module": "alloy"
+        },
+        {
+          "id": "alloy:tool-m2",
+          "title": "M2 high-speed steel",
+          "module": "alloy"
+        },
+        {
+          "id": "alloy:tool-o1",
+          "title": "O1 tool steel",
+          "module": "alloy"
+        },
+        {
+          "id": "alloy:tool-s7",
+          "title": "S7 tool steel",
+          "module": "alloy"
+        },
+        {
+          "id": "temper:1045-hardening",
+          "title": "AISI 1045 hardening",
+          "module": "temper"
+        },
+        {
+          "id": "temper:1095-knife",
+          "title": "AISI 1095 knife heat treat",
+          "module": "temper"
+        },
+        {
+          "id": "temper:17-4-h900",
+          "title": "17-4 PH H900 aging",
+          "module": "temper"
+        },
+        {
+          "id": "temper:4140-ht",
+          "title": "AISI 4140 heat treat",
+          "module": "temper"
+        },
+        {
+          "id": "temper:8620-carburize",
+          "title": "AISI 8620 carburize-and-quench",
+          "module": "temper"
+        },
+        {
+          "id": "temper:a2-cycle",
+          "title": "A2 tool steel heat treat",
+          "module": "temper"
+        },
+        {
+          "id": "temper:d2-cycle",
+          "title": "D2 tool steel heat treat",
+          "module": "temper"
+        },
+        {
+          "id": "temper:o1-quench",
+          "title": "O1 tool steel quench-and-temper",
+          "module": "temper"
+        },
+        {
+          "id": "temper:quenchant-selection",
+          "title": "Quenchant selection",
+          "module": "temper"
+        },
+        {
+          "id": "temper:stress-relief",
+          "title": "Stress relief",
+          "module": "temper"
+        },
+        {
+          "id": "temper:tempering-colors",
+          "title": "Tempering colors",
+          "module": "temper"
+        }
+      ]
+    },
+    {
+      "key": "merck-index",
+      "short": "Merck Index",
+      "full": "The Merck Index, 15th Edition",
+      "publisher": "Royal Society of Chemistry",
+      "edition": "",
+      "citationCount": 22,
+      "citingEntries": [
+        {
+          "id": "buffer:acetate",
+          "title": "Acetate buffer",
+          "module": "buffer"
+        },
+        {
+          "id": "buffer:carbonate",
+          "title": "Carbonate / bicarbonate",
+          "module": "buffer"
+        },
+        {
+          "id": "buffer:citrate",
+          "title": "Citrate buffer",
+          "module": "buffer"
+        },
+        {
+          "id": "buffer:hepes",
+          "title": "HEPES buffer",
+          "module": "buffer"
+        },
+        {
+          "id": "buffer:mes",
+          "title": "MES buffer",
+          "module": "buffer"
+        },
+        {
+          "id": "buffer:mops",
+          "title": "MOPS buffer",
+          "module": "buffer"
+        },
+        {
+          "id": "buffer:phosphate",
+          "title": "Phosphate buffer (Sørensen)",
+          "module": "buffer"
+        },
+        {
+          "id": "buffer:tris-hcl",
+          "title": "Tris-HCl buffer",
+          "module": "buffer"
+        },
+        {
+          "id": "etch:aqua-regia",
+          "title": "Aqua regia",
+          "module": "etch"
+        },
+        {
+          "id": "etch:liver-of-sulfur",
+          "title": "Liver of sulfur",
+          "module": "etch"
+        },
+        {
+          "id": "reagent:acetic-glacial",
+          "title": "Acetic acid, glacial",
+          "module": "reagent"
+        },
+        {
+          "id": "reagent:edta-disodium",
+          "title": "EDTA disodium",
+          "module": "reagent"
+        },
+        {
+          "id": "reagent:h2so4-conc",
+          "title": "Sulfuric acid, concentrated",
+          "module": "reagent"
+        },
+        {
+          "id": "reagent:hcl-conc",
+          "title": "Hydrochloric acid, concentrated",
+          "module": "reagent"
+        },
+        {
+          "id": "reagent:hno3-conc",
+          "title": "Nitric acid, concentrated",
+          "module": "reagent"
+        },
+        {
+          "id": "reagent:koh-pellets",
+          "title": "Potassium hydroxide",
+          "module": "reagent"
+        },
+        {
+          "id": "reagent:na2co3",
+          "title": "Sodium carbonate",
+          "module": "reagent"
+        },
+        {
+          "id": "reagent:na2s2o3",
+          "title": "Sodium thiosulfate",
+          "module": "reagent"
+        },
+        {
+          "id": "reagent:nacl",
+          "title": "Sodium chloride",
+          "module": "reagent"
+        },
+        {
+          "id": "reagent:nahco3",
+          "title": "Sodium bicarbonate",
+          "module": "reagent"
+        },
+        {
+          "id": "reagent:naoh-pellets",
+          "title": "Sodium hydroxide",
+          "module": "reagent"
+        },
+        {
+          "id": "reagent:nh4oh-conc",
+          "title": "Ammonium hydroxide, concentrated",
+          "module": "reagent"
+        }
+      ]
+    },
+    {
+      "key": "astm-e407",
+      "short": "ASTM E407",
+      "full": "Standard Practice for Microetching Metals and Alloys",
+      "publisher": "ASTM International",
+      "edition": "",
+      "citationCount": 14,
+      "citingEntries": [
+        {
+          "id": "etch:ammonia-patina",
+          "title": "Ammonia and vinegar patina",
+          "module": "etch"
+        },
+        {
+          "id": "etch:glyceregia",
+          "title": "Glyceregia",
+          "module": "etch"
+        },
+        {
+          "id": "etch:kellers",
+          "title": "Keller's reagent",
+          "module": "etch"
+        },
+        {
+          "id": "etch:klein",
+          "title": "Klein's reagent",
+          "module": "etch"
+        },
+        {
+          "id": "etch:marble",
+          "title": "Marble's reagent",
+          "module": "etch"
+        },
+        {
+          "id": "etch:murakami",
+          "title": "Murakami's reagent",
+          "module": "etch"
+        },
+        {
+          "id": "etch:nital",
+          "title": "Nital",
+          "module": "etch"
+        },
+        {
+          "id": "etch:picral",
+          "title": "Picral",
+          "module": "etch"
+        },
+        {
+          "id": "solder:bag-1",
+          "title": "BAg-1 (45% silver)",
+          "module": "solder"
+        },
+        {
+          "id": "solder:bag-7",
+          "title": "BAg-7 (56% silver)",
+          "module": "solder"
+        },
+        {
+          "id": "solder:bcup-2",
+          "title": "BCuP-2 (phos-copper)",
+          "module": "solder"
+        },
+        {
+          "id": "solder:sac305",
+          "title": "SAC305",
+          "module": "solder"
+        },
+        {
+          "id": "solder:sn63-pb37",
+          "title": "Sn63/Pb37",
+          "module": "solder"
+        },
+        {
+          "id": "solder:sn95-sb5",
+          "title": "Sn95/Sb5",
+          "module": "solder"
+        }
+      ]
+    },
+    {
+      "key": "anchell-troop",
+      "short": "Anchell & Troop",
+      "full": "The Film Developing Cookbook (2nd ed.)",
+      "publisher": "Routledge / Focal Press",
+      "edition": "",
+      "citationCount": 13,
+      "citingEntries": [
+        {
+          "id": "darkroom:agitation-protocols",
+          "title": "Agitation protocols",
+          "module": "darkroom"
+        },
+        {
+          "id": "darkroom:dilution-math",
+          "title": "Developer dilution math",
+          "module": "darkroom"
+        },
+        {
+          "id": "darkroom:push-pull-tables",
+          "title": "Push and pull processing",
+          "module": "darkroom"
+        },
+        {
+          "id": "darkroom:time-temp-compensation",
+          "title": "Time and temperature compensation",
+          "module": "darkroom"
+        },
+        {
+          "id": "developer:caffenol-cl",
+          "title": "Caffenol-C-L",
+          "module": "darkroom"
+        },
+        {
+          "id": "developer:d-76",
+          "title": "D-76",
+          "module": "darkroom"
+        },
+        {
+          "id": "developer:ddx",
+          "title": "DD-X",
+          "module": "darkroom"
+        },
+        {
+          "id": "developer:hc-110",
+          "title": "HC-110",
+          "module": "darkroom"
+        },
+        {
+          "id": "developer:perceptol",
+          "title": "Perceptol",
+          "module": "darkroom"
+        },
+        {
+          "id": "developer:rodinal",
+          "title": "Rodinal (R09)",
+          "module": "darkroom"
+        },
+        {
+          "id": "developer:tmax-developer",
+          "title": "T-MAX Developer",
+          "module": "darkroom"
+        },
+        {
+          "id": "developer:xtol",
+          "title": "XTOL",
+          "module": "darkroom"
+        },
+        {
+          "id": "reagent:na2s2o3",
+          "title": "Sodium thiosulfate",
+          "module": "reagent"
+        }
+      ]
+    },
+    {
+      "key": "asm-v2",
+      "short": "ASM Vol. 2",
+      "full": "ASM Handbook, Volume 2: Properties and Selection: Nonferrous Alloys and Special-Purpose Materials",
+      "publisher": "ASM International",
+      "edition": "10th",
+      "citationCount": 13,
+      "citingEntries": [
+        {
+          "id": "alloy:al-2024",
+          "title": "Aluminum 2024-T3",
+          "module": "alloy"
+        },
+        {
+          "id": "alloy:al-3003",
+          "title": "Aluminum 3003",
+          "module": "alloy"
+        },
+        {
+          "id": "alloy:al-5052",
+          "title": "Aluminum 5052",
+          "module": "alloy"
+        },
+        {
+          "id": "alloy:al-6061",
+          "title": "Aluminum 6061-T6",
+          "module": "alloy"
+        },
+        {
+          "id": "alloy:al-7075",
+          "title": "Aluminum 7075-T6",
+          "module": "alloy"
+        },
+        {
+          "id": "alloy:cu-c110",
+          "title": "C110 ETP copper",
+          "module": "alloy"
+        },
+        {
+          "id": "alloy:cu-c260",
+          "title": "C260 cartridge brass",
+          "module": "alloy"
+        },
+        {
+          "id": "alloy:cu-c360",
+          "title": "C360 free-machining brass",
+          "module": "alloy"
+        },
+        {
+          "id": "alloy:cu-c932",
+          "title": "C932 bearing bronze",
+          "module": "alloy"
+        },
+        {
+          "id": "alloy:ni-inconel-625",
+          "title": "Inconel 625",
+          "module": "alloy"
+        },
+        {
+          "id": "alloy:ni-inconel-718",
+          "title": "Inconel 718",
+          "module": "alloy"
+        },
+        {
+          "id": "alloy:ni-monel-400",
+          "title": "Monel 400",
+          "module": "alloy"
+        },
+        {
+          "id": "alloy:ti-grade-5",
+          "title": "Ti-6Al-4V (Grade 5)",
+          "module": "alloy"
+        }
+      ]
+    },
+    {
+      "key": "asm-v13",
+      "short": "ASM Vol. 13",
+      "full": "ASM Handbook, Volume 13: Corrosion",
+      "publisher": "ASM International",
+      "edition": "10th",
+      "citationCount": 11,
+      "citingEntries": [
+        {
+          "id": "electro:copper-sulfate-acid",
+          "title": "Acid copper sulfate plating",
+          "module": "electro"
+        },
+        {
+          "id": "electro:electroless-nickel",
+          "title": "Electroless nickel-phosphorus",
+          "module": "electro"
+        },
+        {
+          "id": "electro:galvanic-series",
+          "title": "Galvanic series in seawater",
+          "module": "electro"
+        },
+        {
+          "id": "electro:hard-anodize",
+          "title": "Hard anodize (Type III)",
+          "module": "electro"
+        },
+        {
+          "id": "electro:hard-chrome",
+          "title": "Hard chrome plating",
+          "module": "electro"
+        },
+        {
+          "id": "electro:nickel-sulfamate",
+          "title": "Nickel sulfamate plating bath",
+          "module": "electro"
+        },
+        {
+          "id": "electro:sacrificial-aluminum",
+          "title": "Aluminum-zinc-indium anode",
+          "module": "electro"
+        },
+        {
+          "id": "electro:sacrificial-magnesium",
+          "title": "Magnesium sacrificial anode",
+          "module": "electro"
+        },
+        {
+          "id": "electro:sacrificial-zinc",
+          "title": "Zinc sacrificial anode",
+          "module": "electro"
+        },
+        {
+          "id": "electro:type-ii-anodize",
+          "title": "Type II sulfuric anodize",
+          "module": "electro"
+        },
+        {
+          "id": "etch:caustic-black-oxide",
+          "title": "Caustic black oxide",
+          "module": "etch"
+        }
+      ]
+    },
+    {
+      "key": "asm-v9",
+      "short": "ASM Vol. 9",
+      "full": "ASM Handbook, Volume 9: Metallography and Microstructures",
+      "publisher": "ASM International",
+      "edition": "10th",
+      "citationCount": 9,
+      "citingEntries": [
+        {
+          "id": "etch:ammonia-patina",
+          "title": "Ammonia and vinegar patina",
+          "module": "etch"
+        },
+        {
+          "id": "etch:fecl3-pcb",
+          "title": "Ferric chloride (PCB strength)",
+          "module": "etch"
+        },
+        {
+          "id": "etch:glyceregia",
+          "title": "Glyceregia",
+          "module": "etch"
+        },
+        {
+          "id": "etch:kellers",
+          "title": "Keller's reagent",
+          "module": "etch"
+        },
+        {
+          "id": "etch:klein",
+          "title": "Klein's reagent",
+          "module": "etch"
+        },
+        {
+          "id": "etch:marble",
+          "title": "Marble's reagent",
+          "module": "etch"
+        },
+        {
+          "id": "etch:murakami",
+          "title": "Murakami's reagent",
+          "module": "etch"
+        },
+        {
+          "id": "etch:nital",
+          "title": "Nital",
+          "module": "etch"
+        },
+        {
+          "id": "etch:picral",
+          "title": "Picral",
+          "module": "etch"
+        }
+      ]
+    },
+    {
+      "key": "astm-b32",
+      "short": "ASTM B32",
+      "full": "Standard Specification for Solder Metal",
+      "publisher": "ASTM International",
+      "edition": "",
+      "citationCount": 9,
+      "citingEntries": [
+        {
+          "id": "solder:au80-sn20",
+          "title": "Au80/Sn20",
+          "module": "solder"
+        },
+        {
+          "id": "solder:bag-24",
+          "title": "BAg-24 (50% silver)",
+          "module": "solder"
+        },
+        {
+          "id": "solder:bcup-5",
+          "title": "BCuP-5 (silver phos-copper)",
+          "module": "solder"
+        },
+        {
+          "id": "solder:bni-2",
+          "title": "BNi-2 (nickel braze)",
+          "module": "solder"
+        },
+        {
+          "id": "solder:sn-ag",
+          "title": "Sn96.5/Ag3.5",
+          "module": "solder"
+        },
+        {
+          "id": "solder:sn-bi",
+          "title": "Sn42/Bi58",
+          "module": "solder"
+        },
+        {
+          "id": "solder:sn60-pb40",
+          "title": "Sn60/Pb40",
+          "module": "solder"
+        },
+        {
+          "id": "solder:sn99-cu",
+          "title": "Sn99.3/Cu0.7",
+          "module": "solder"
+        },
+        {
+          "id": "solder:sterling-medium",
+          "title": "Sterling silver solder (medium)",
+          "module": "solder"
+        }
+      ]
+    },
+    {
+      "key": "asm-htg",
+      "short": "ASM HTG",
+      "full": "ASM Specialty Handbook: Heat Treater's Guide",
+      "publisher": "ASM International",
+      "edition": "",
+      "citationCount": 7,
+      "citingEntries": [
+        {
+          "id": "temper:1045-hardening",
+          "title": "AISI 1045 hardening",
+          "module": "temper"
+        },
+        {
+          "id": "temper:4140-ht",
+          "title": "AISI 4140 heat treat",
+          "module": "temper"
+        },
+        {
+          "id": "temper:8620-carburize",
+          "title": "AISI 8620 carburize-and-quench",
+          "module": "temper"
+        },
+        {
+          "id": "temper:a2-cycle",
+          "title": "A2 tool steel heat treat",
+          "module": "temper"
+        },
+        {
+          "id": "temper:d2-cycle",
+          "title": "D2 tool steel heat treat",
+          "module": "temper"
+        },
+        {
+          "id": "temper:o1-quench",
+          "title": "O1 tool steel quench-and-temper",
+          "module": "temper"
+        },
+        {
+          "id": "temper:quenchant-selection",
+          "title": "Quenchant selection",
+          "module": "temper"
+        }
+      ]
+    },
+    {
+      "key": "asm-v3",
+      "short": "ASM Vol. 3",
+      "full": "ASM Handbook, Volume 3: Alloy Phase Diagrams",
+      "publisher": "ASM International",
+      "edition": "10th",
+      "citationCount": 7,
+      "citingEntries": [
+        {
+          "id": "phase:al-si-casting",
+          "title": "Al-Si (aluminum casting) binary diagram",
+          "module": "phase"
+        },
+        {
+          "id": "phase:cu-zn-brass",
+          "title": "Cu-Zn (brass) binary diagram",
+          "module": "phase"
+        },
+        {
+          "id": "phase:eutectic-eutectoid",
+          "title": "Eutectic, eutectoid, peritectic",
+          "module": "phase"
+        },
+        {
+          "id": "phase:fe-c-key",
+          "title": "Fe-C diagram interactive key",
+          "module": "phase"
+        },
+        {
+          "id": "phase:gibbs-phase-rule",
+          "title": "Gibbs phase rule",
+          "module": "phase"
+        },
+        {
+          "id": "phase:lever-rule",
+          "title": "Lever rule",
+          "module": "phase"
+        },
+        {
+          "id": "phase:pb-sn-solder",
+          "title": "Pb-Sn (solder) binary diagram",
+          "module": "phase"
+        }
+      ]
+    },
+    {
+      "key": "osha-1910",
+      "short": "29 CFR 1910",
+      "full": "OSHA General Industry Standards",
+      "publisher": "US Occupational Safety and Health Administration",
+      "edition": "",
+      "citationCount": 5,
+      "citingEntries": [
+        {
+          "id": "hazard:eyewash-shower",
+          "title": "Eyewash and emergency shower",
+          "module": "hazard"
+        },
+        {
+          "id": "hazard:ghs-pictograms",
+          "title": "GHS pictograms",
+          "module": "hazard"
+        },
+        {
+          "id": "hazard:incompatibility-matrix",
+          "title": "Chemical incompatibility quick reference",
+          "module": "hazard"
+        },
+        {
+          "id": "hazard:ppe-selection",
+          "title": "PPE selection",
+          "module": "hazard"
+        },
+        {
+          "id": "hazard:spill-response",
+          "title": "Spill response protocol",
+          "module": "hazard"
+        }
+      ]
+    },
+    {
+      "key": "dot-49cfr",
+      "short": "49 CFR 172",
+      "full": "Hazardous Materials Regulations, Table of Hazardous Materials",
+      "publisher": "US Department of Transportation",
+      "edition": "",
+      "citationCount": 1,
+      "citingEntries": [
+        {
+          "id": "hazard:dot-placards",
+          "title": "DOT placards",
+          "module": "hazard"
+        }
+      ]
+    },
+    {
+      "key": "ghs-rev10",
+      "short": "GHS Rev. 10",
+      "full": "Globally Harmonized System of Classification and Labelling of Chemicals (Rev. 10)",
+      "publisher": "United Nations",
+      "edition": "",
+      "citationCount": 1,
+      "citingEntries": [
+        {
+          "id": "hazard:ghs-pictograms",
+          "title": "GHS pictograms",
+          "module": "hazard"
+        }
+      ]
+    },
+    {
+      "key": "nfpa-704",
+      "short": "NFPA 704",
+      "full": "Standard System for the Identification of the Hazards of Materials for Emergency Response",
+      "publisher": "National Fire Protection Association",
+      "edition": "",
+      "citationCount": 1,
+      "citingEntries": [
+        {
+          "id": "hazard:nfpa-704",
+          "title": "NFPA 704 fire diamond",
+          "module": "hazard"
+        }
+      ]
+    },
+    {
+      "key": "vanysek",
+      "short": "Vanýsek (CRC)",
+      "full": "Electrochemical Series, CRC Handbook of Chemistry and Physics",
+      "publisher": "CRC Press",
+      "edition": "",
+      "citationCount": 1,
+      "citingEntries": [
+        {
+          "id": "electro:standard-potentials",
+          "title": "Standard reduction potentials",
+          "module": "electro"
+        }
+      ]
+    },
+    {
+      "key": "aws-a5.8",
+      "short": "AWS A5.8",
+      "full": "Specification for Filler Metals for Brazing and Braze Welding",
+      "publisher": "American Welding Society",
+      "edition": "",
+      "citationCount": 0,
+      "citingEntries": []
+    },
+    {
+      "key": "nist-webbook",
+      "short": "NIST WebBook",
+      "full": "NIST Chemistry WebBook, SRD 69",
+      "publisher": "National Institute of Standards and Technology",
+      "edition": "",
+      "citationCount": 0,
+      "citingEntries": []
+    }
+  ]
+}
